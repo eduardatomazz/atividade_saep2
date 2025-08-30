@@ -7,12 +7,16 @@
 </head>
 <body>
     <div class="entrar">
-         <p>Bem Vindo</p>
-         <label for="email">E-mail</label>
-         <input type="text">
-         <label for="senha">Senha</label>
-         <input type="text">
-         <a href="/public/index.php">ENTRAR</a>
+        <p>Bem-vindo</p>
+        <form action="/public/index.php" method="post">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
+            <br>
+            <button type="submit">Entrar</button>
+        </form>
     </div>
 
 </body>
