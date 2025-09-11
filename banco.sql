@@ -1,5 +1,5 @@
-CREATE DATABASE saeepp_db;
-USE saeepp_db;
+CREATE DATABASE saep_db;
+USE saep_db;
 
 CREATE TABLE professor (
     id_professor INT AUTO_INCREMENT PRIMARY KEY,
